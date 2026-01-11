@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio website built from scratch. Responsive, accessible, and well-styled.">
+  <title>Hamza Portfolio | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="container">
+      <div class="nav">
+        
+    <a class="brand" href="index.html">
+      <span class="brand-badge" aria-hidden="true"></span>
+      <span>Hamza Portfolio</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn icon-btn" type="button" data-theme-toggle aria-pressed="false" title="Toggle theme">
+        <span aria-hidden="true">🌓</span>
+        <span class="sr-only">Toggle theme</span>
+      </button>
+      <button class="btn icon-btn hamburger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobilePanel">
+        <span aria-hidden="true">☰</span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <a class="btn btn-primary" href="assets/Hamza-CV.pdf" download>Download CV</a>
+    </div>
+
+      </div>
+      
+    <div class="mobile-panel" id="mobilePanel" hidden>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    </div>
+  </header>
+
+  <main id="main">
+  
+<section class="hero">
+  <div class="hero-card reveal">
+    <span class="kicker">👋 Hello! I’m Hamza</span>
+    <h1>Front-End Developer building clean, responsive websites.</h1>
+    <p class="lead">This portfolio is designed from scratch with valid HTML/CSS, responsive layouts, and interactive JavaScript extras (dark mode, filters, animations, and more).</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="projects.html">View Projects</a>
+      <a class="btn" href="contact.html">Contact Me</a>
+      <a class="btn" href="#skills">My Skills</a>
+    </div>
+  </div>
+
+  <div class="avatar reveal">
+    <div class="avatar-inner">
+      <div class="placeholder">
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Skills</h2>
+        <p class="hint">A quick overview of what I use to build web experiences.</p>
+      </div>
+    </div>
+    <div class="grid grid-3">
+      <article class="card reveal">
+        <h3>HTML5</h3>
+        <p>Semantic markup, accessibility basics, forms, and SEO-friendly structure.</p>
+        <div class="badges">
+          <span class="badge">W3 Valid</span>
+          <span class="badge">Accessible</span>
+          <span class="badge">Semantic</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <h3>CSS3</h3>
+        <p>Responsive design using Flexbox/Grid, media queries, and modern styling.</p>
+        <div class="badges">
+          <span class="badge">Grid/Flex</span>
+          <span class="badge">Media Queries</span>
+          <span class="badge">Animations</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <h3>JavaScript</h3>
+        <p>Interactive UI: filters, form validation, theme toggle, and smooth UX.</p>
+        <div class="badges">
+          <span class="badge">DOM</span>
+          <span class="badge">Events</span>
+          <span class="badge">Storage</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Featured Work</h2>
+        <p class="hint">Three example projects. Replace them with yours anytime.</p>
+      </div>
+      <a class="btn" href="projects.html">See all</a>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="card reveal">
+        <small>Landing Page</small>
+        <h3>Product Showcase</h3>
+        <p>Responsive marketing page with sections, call-to-action, and strong typography.</p>
+        <div class="project-meta">
+          <span class="badge">HTML/CSS</span>
+          <a href="projects.html">Details →</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <small>Web App UI</small>
+        <h3>Task Dashboard</h3>
+        <p>Grid-based dashboard layout with cards, badges, and a clean responsive design.</p>
+        <div class="project-meta">
+          <span class="badge">CSS Grid</span>
+          <a href="projects.html">Details →</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <small>Interactive</small>
+        <h3>Project Filter</h3>
+        <p>JavaScript filtering to show projects by category (see Projects page).</p>
+        <div class="project-meta">
+          <span class="badge">JavaScript</span>
+          <a href="projects.html">Details →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>Hamza Portfolio</strong><br>
+        <small>Built from scratch • Responsive • W3-valid</small>
+      </div>
+      <div>
+        <small>© 2026 Hamza. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" class="btn icon-btn" type="button" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

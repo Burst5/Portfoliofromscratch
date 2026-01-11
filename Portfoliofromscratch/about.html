@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio website built from scratch. Responsive, accessible, and well-styled.">
+  <title>Hamza Portfolio | About</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="container">
+      <div class="nav">
+        
+    <a class="brand" href="index.html">
+      <span class="brand-badge" aria-hidden="true"></span>
+      <span>Hamza Portfolio</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn icon-btn" type="button" data-theme-toggle aria-pressed="false" title="Toggle theme">
+        <span aria-hidden="true">🌓</span>
+        <span class="sr-only">Toggle theme</span>
+      </button>
+      <button class="btn icon-btn hamburger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobilePanel">
+        <span aria-hidden="true">☰</span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <a class="btn btn-primary" href="assets/Hamza-CV.pdf" download>Download CV</a>
+    </div>
+
+      </div>
+      
+    <div class="mobile-panel" id="mobilePanel" hidden>
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    </div>
+  </header>
+
+  <main id="main">
+  
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2 class="reveal">About Me</h2>
+        <p class="hint reveal">A short story about you.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <article class="card reveal">
+        <h3>Who I am</h3>
+        <p>I’m a front-end developer who enjoys turning ideas into responsive, user-friendly websites. I focus on clean code, accessibility, and modern design.</p>
+        <p>For this course project, I built the portfolio from scratch (no templates) and added extra features like dark mode, animations, and JavaScript interactions.</p>
+      </article>
+
+      <article class="card reveal">
+        <h3>What I’m learning</h3>
+        <p>Currently improving my skills in responsive layout, CSS architecture, and JavaScript fundamentals.</p>
+        <div class="badges">
+          <span class="badge">Responsive Design</span>
+          <span class="badge">W3 Validation</span>
+          <span class="badge">Accessibility</span>
+          <span class="badge">Performance</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="card reveal" style="margin-top:1rem;">
+      <h3>Extras included in this project</h3>
+      <ul>
+        <li><strong>Dark mode toggle</strong> (saved using localStorage)</li>
+        <li><strong>Responsive hamburger menu</strong> for mobile navigation</li>
+        <li><strong>Reveal animations</strong> using IntersectionObserver</li>
+        <li><strong>Scroll-to-top button</strong> that appears after scrolling</li>
+        <li><strong>Projects filter</strong> (Projects page)</li>
+        <li><strong>Contact form validation</strong> with success message</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>Hamza Portfolio</strong><br>
+        <small>Built from scratch • Responsive • W3-valid</small>
+      </div>
+      <div>
+        <small>© 2026 Hamza. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" class="btn icon-btn" type="button" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

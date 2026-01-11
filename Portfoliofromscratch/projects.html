@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio website built from scratch. Responsive, accessible, and well-styled.">
+  <title>Hamza Portfolio | Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="container">
+      <div class="nav">
+        
+    <a class="brand" href="index.html">
+      <span class="brand-badge" aria-hidden="true"></span>
+      <span>Hamza Portfolio</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn icon-btn" type="button" data-theme-toggle aria-pressed="false" title="Toggle theme">
+        <span aria-hidden="true">🌓</span>
+        <span class="sr-only">Toggle theme</span>
+      </button>
+      <button class="btn icon-btn hamburger" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobilePanel">
+        <span aria-hidden="true">☰</span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <a class="btn btn-primary" href="assets/Hamza-CV.pdf" download>Download CV</a>
+    </div>
+
+      </div>
+      
+    <div class="mobile-panel" id="mobilePanel" hidden>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    </div>
+  </header>
+
+  <main id="main">
+  
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2 class="reveal">Projects</h2>
+        <p class="hint reveal">Filter projects by category (JavaScript extra).</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Project filters">
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-filter="html" aria-pressed="false">HTML/CSS</button>
+        <button class="chip" type="button" data-filter="js" aria-pressed="false">JavaScript</button>
+        <button class="chip" type="button" data-filter="ui" aria-pressed="false">UI Design</button>
+      </div>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="card reveal" data-project="html">
+        <small>HTML/CSS</small>
+        <h3>Responsive Landing Page</h3>
+        <p>Built with semantic HTML and CSS Grid/Flexbox. Includes media queries for mobile/tablet.</p>
+        <div class="badges">
+          <span class="badge">Responsive</span><span class="badge">W3 Valid</span>
+        </div>
+      </article>
+
+      <article class="card reveal" data-project="js">
+        <small>JavaScript</small>
+        <h3>Theme Toggle</h3>
+        <p>Dark mode switch that saves preferences using localStorage (works on every page).</p>
+        <div class="badges">
+          <span class="badge">localStorage</span><span class="badge">UX</span>
+        </div>
+      </article>
+
+      <article class="card reveal" data-project="ui">
+        <small>UI Design</small>
+        <h3>Dashboard Layout</h3>
+        <p>Card-based UI with spacing, typography, and consistent components.</p>
+        <div class="badges">
+          <span class="badge">Design System</span><span class="badge">Grid</span>
+        </div>
+      </article>
+
+      <article class="card reveal" data-project="js">
+        <small>JavaScript</small>
+        <h3>Project Filter</h3>
+        <p>Filter buttons show/hide projects based on category (this page).</p>
+        <div class="badges">
+          <span class="badge">DOM</span><span class="badge">Events</span>
+        </div>
+      </article>
+
+      <article class="card reveal" data-project="html">
+        <small>HTML/CSS</small>
+        <h3>Accessible Navigation</h3>
+        <p>Sticky header, skip-to-content link, keyboard-friendly focus and ARIA labels.</p>
+        <div class="badges">
+          <span class="badge">Accessibility</span><span class="badge">Semantic</span>
+        </div>
+      </article>
+
+      <article class="card reveal" data-project="ui">
+        <small>UI Design</small>
+        <h3>Animations & Micro-interactions</h3>
+        <p>Reveal-on-scroll animations and button hover elevation for a polished feel.</p>
+        <div class="badges">
+          <span class="badge">IntersectionObserver</span><span class="badge">Motion</span>
+        </div>
+      </article>
+    </div>
+
+
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>Hamza Portfolio</strong><br>
+        <small>Built from scratch • Responsive • W3-valid</small>
+      </div>
+      <div>
+        <small>© 2026 Hamza. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" class="btn icon-btn" type="button" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
